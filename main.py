@@ -14,8 +14,9 @@ options = webdriver.ChromeOptions()
 service = webdriver.chrome.service.Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=options)
 
-# opening webpage
-driver.get('https://www.amazon.com/2-Piece-Grinder-Adjustable-Coarseness-Refillable/dp/B09FX2YBBV/')
+# input + opening webpage
+product_url = input("Please enter the Amazon product URL: ")
+driver.get(product_url)
 # driver.get('https://www.amazon.com/dp/B099N4NSSD')
 # driver.get('https://www.amazon.com/Jeuhoue-Handmade-Christmas-Birthday-Valentines/dp/B0BVB6DVDC/')
 

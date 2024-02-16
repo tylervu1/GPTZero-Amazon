@@ -4,11 +4,11 @@ This program is a web scraper to detect AI-generated reviews on Amazon.
 
 ## How to use:
 * initial setup * - clone repo and insert your API key in gptzero.py.
-Run the main.py file.
-Input amazon product page.
-i.e. https://www.amazon.com/dp/B099N4NSSD (follow this format for url)
-If captcha appears, manually complete. Then go back to the program and press “Enter”.
-Wait for the “Scraping done” message, then check output files.
+1) Run the main.py file.
+2) Input amazon product page.
+* i.e. https://www.amazon.com/dp/B099N4NSSD (follow this format for url)
+3) If captcha appears, manually complete. Then go back to the program and press “Enter”.
+4) Wait for the “Scraping done” message, then check output files.
 
 ## Interesting results found:
 For this example, we are going to use the “Projector with WiFi” product on Amazon. As of February 17 2024, this product has an overall rating of 4.4 stars with 3,356 ratings and 44 written reviews.

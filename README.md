@@ -1,8 +1,8 @@
-## Amazon Reviews: AI Detection & Analysis
+# Amazon Reviews: AI Detection & Analysis
 
 This program is a web scraper to detect AI-generated reviews on Amazon. 
 
-# How to use:
+## How to use:
 * initial setup * - clone repo and insert your API key in gptzero.py.
 Run the main.py file.
 Input amazon product page.
@@ -10,14 +10,14 @@ i.e. https://www.amazon.com/dp/B099N4NSSD (follow this format for url)
 If captcha appears, manually complete. Then go back to the program and press “Enter”.
 Wait for the “Scraping done” message, then check output files.
 
-# Interesting results found:
+## Interesting results found:
 For this example, we are going to use the “Projector with WiFi” product on Amazon. As of February 17 2024, this product has an overall rating of 4.4 stars with 3,356 ratings and 44 written reviews.
 
 Our program tested each of these reviews with the GPTZero API to see if it would be classified as “AI”, “mixed”, or “human”. Out of 44 reviews, 8 were classified as “AI”, 6 of such having a high confidence score, 1 with a medium confidence score, and 1 having a low confidence score. Only one review was classified as “mixed” with a medium confidence score.
 
 Interestingly, all of the reviews that were classified as “AI” were all 5 star reviews. While our dataset isn’t large enough for this to be a good judgment of much, I think it should be taken into consideration as AI assistance becomes more common in our everyday activities.
 
-Here are some of the reviews that were classified as “AI”:
+## Here are some of the reviews that were classified as “AI”:
 
 Predicted Class: ai
 Confidence Score: 0.9447418104

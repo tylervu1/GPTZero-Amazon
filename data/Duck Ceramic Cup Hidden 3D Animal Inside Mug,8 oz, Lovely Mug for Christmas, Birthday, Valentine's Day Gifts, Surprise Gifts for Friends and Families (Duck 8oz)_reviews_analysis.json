@@ -1,0 +1,716 @@
+[
+    {
+        "review_text": "Gave it as a gift. She said it's perfect for tea! Love the color coordination.",
+        "analysis_result": {
+            "version": "2024-01-09",
+            "scanId": "6c4d9a75-3ddb-4ecb-9c5a-63236618f125",
+            "documents": [
+                {
+                    "average_generated_prob": 0,
+                    "class_probabilities": {
+                        "ai": 5.412423705026328e-05,
+                        "human": 0.9918704025716655,
+                        "mixed": 0.008075473191284219
+                    },
+                    "completely_generated_prob": 0.0040377365956421095,
+                    "confidence_category": "high",
+                    "confidence_score": 0.9305978796745591,
+                    "confidence_scores_raw": {
+                        "softmax": {
+                            "ai": 5.412423705026328e-05,
+                            "human": 0.9918704025716655,
+                            "mixed": 0.008075473191284219
+                        }
+                    },
+                    "confidence_thresholds_raw": {
+                        "softmax": {
+                            "ai": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "human": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "mixed": {
+                                "low": 0.25005905002137835,
+                                "medium": 0.7499982093942428,
+                                "reject": 0.06218595116691931
+                            }
+                        }
+                    },
+                    "metrics_per_class": {
+                        "ai": {
+                            "high": {
+                                "accuracy": 0.9933733038813506
+                            },
+                            "low": {
+                                "accuracy": 0.8646616541353384
+                            },
+                            "medium": {
+                                "accuracy": 0.9510086455331412
+                            },
+                            "reject": {
+                                "accuracy": 0.40963855421686746
+                            }
+                        },
+                        "human": {
+                            "high": {
+                                "accuracy": 0.996798463262366
+                            },
+                            "low": {
+                                "accuracy": 0.8514056224899599
+                            },
+                            "medium": {
+                                "accuracy": 0.9439252336448598
+                            },
+                            "reject": {
+                                "accuracy": 0.7258064516129032
+                            }
+                        },
+                        "mixed": {
+                            "high": {
+                                "accuracy": 0.8066812705366923
+                            },
+                            "low": {
+                                "accuracy": 0.3313953488372093
+                            },
+                            "medium": {
+                                "accuracy": 0.6600476568705321
+                            },
+                            "reject": {
+                                "accuracy": 0.2125748502994012
+                            }
+                        }
+                    },
+                    "overall_burstiness": 283.6729431152344,
+                    "paragraphs": [
+                        {
+                            "completely_generated_prob": 0.00408719312638748,
+                            "num_sentences": 3,
+                            "start_sentence_index": 0
+                        }
+                    ],
+                    "predicted_class": "human",
+                    "sentences": [
+                        {
+                            "generated_prob": 0.00047438990441150963,
+                            "perplexity": 46,
+                            "sentence": "Gave it as a gift.",
+                            "highlight_sentence_for_ai": false
+                        },
+                        {
+                            "generated_prob": 0.0005493671051226556,
+                            "perplexity": 112,
+                            "sentence": "She said it's perfect for tea!",
+                            "highlight_sentence_for_ai": false
+                        },
+                        {
+                            "generated_prob": 0.00043749160249717534,
+                            "perplexity": 567,
+                            "sentence": "Love the color coordination.",
+                            "highlight_sentence_for_ai": false
+                        }
+                    ],
+                    "writing_stats": {},
+                    "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+                    "result_sub_message": "",
+                    "document_classification": "HUMAN_ONLY",
+                    "version": "2024-01-09"
+                }
+            ]
+        }
+    },
+    {
+        "review_text": "great gift for a kid",
+        "analysis_result": {
+            "version": "2024-01-09",
+            "scanId": "54ee6631-b6ee-4005-8455-3bac94329819",
+            "documents": [
+                {
+                    "average_generated_prob": 0,
+                    "class_probabilities": {
+                        "ai": 5.325994239312407e-05,
+                        "human": 0.9760315042104544,
+                        "mixed": 0.023915235847152504
+                    },
+                    "completely_generated_prob": 0,
+                    "confidence_category": "high",
+                    "confidence_score": 0.92055393815738,
+                    "confidence_scores_raw": {
+                        "softmax": {
+                            "ai": 5.325994239312407e-05,
+                            "human": 0.9760315042104544,
+                            "mixed": 0.023915235847152504
+                        }
+                    },
+                    "confidence_thresholds_raw": {
+                        "softmax": {
+                            "ai": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "human": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "mixed": {
+                                "low": 0.25005905002137835,
+                                "medium": 0.7499982093942428,
+                                "reject": 0.06218595116691931
+                            }
+                        }
+                    },
+                    "metrics_per_class": {
+                        "ai": {
+                            "high": {
+                                "accuracy": 0.9933733038813506
+                            },
+                            "low": {
+                                "accuracy": 0.8646616541353384
+                            },
+                            "medium": {
+                                "accuracy": 0.9510086455331412
+                            },
+                            "reject": {
+                                "accuracy": 0.40963855421686746
+                            }
+                        },
+                        "human": {
+                            "high": {
+                                "accuracy": 0.996798463262366
+                            },
+                            "low": {
+                                "accuracy": 0.8514056224899599
+                            },
+                            "medium": {
+                                "accuracy": 0.9439252336448598
+                            },
+                            "reject": {
+                                "accuracy": 0.7258064516129032
+                            }
+                        },
+                        "mixed": {
+                            "high": {
+                                "accuracy": 0.8066812705366923
+                            },
+                            "low": {
+                                "accuracy": 0.3313953488372093
+                            },
+                            "medium": {
+                                "accuracy": 0.6600476568705321
+                            },
+                            "reject": {
+                                "accuracy": 0.2125748502994012
+                            }
+                        }
+                    },
+                    "overall_burstiness": 0,
+                    "paragraphs": [
+                        {
+                            "completely_generated_prob": 0,
+                            "num_sentences": 1,
+                            "start_sentence_index": 0
+                        }
+                    ],
+                    "predicted_class": "human",
+                    "sentences": [
+                        {
+                            "generated_prob": 0,
+                            "perplexity": 95,
+                            "sentence": "great gift for a kid",
+                            "highlight_sentence_for_ai": false
+                        }
+                    ],
+                    "writing_stats": {},
+                    "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+                    "result_sub_message": "",
+                    "document_classification": "HUMAN_ONLY",
+                    "version": "2024-01-09"
+                }
+            ]
+        }
+    },
+    {
+        "review_text": "this cup is cute. however, it\u2019s very small and does NOT hold 8 ounces. it only holds 6 ounces if you fill it to the brim. i am extremely didappointed and unhappy with this product.",
+        "analysis_result": {
+            "version": "2024-01-09",
+            "scanId": "b1cabc3a-3a89-46e4-8a48-943ea65ee57b",
+            "documents": [
+                {
+                    "average_generated_prob": 0,
+                    "class_probabilities": {
+                        "ai": 5.300525452832557e-05,
+                        "human": 0.9613962837920617,
+                        "mixed": 0.03855071095341003
+                    },
+                    "completely_generated_prob": 0.019275355476705017,
+                    "confidence_category": "high",
+                    "confidence_score": 0.8805120616481957,
+                    "confidence_scores_raw": {
+                        "softmax": {
+                            "ai": 5.300525452832557e-05,
+                            "human": 0.9613962837920617,
+                            "mixed": 0.03855071095341003
+                        }
+                    },
+                    "confidence_thresholds_raw": {
+                        "softmax": {
+                            "ai": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "human": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "mixed": {
+                                "low": 0.25005905002137835,
+                                "medium": 0.7499982093942428,
+                                "reject": 0.06218595116691931
+                            }
+                        }
+                    },
+                    "metrics_per_class": {
+                        "ai": {
+                            "high": {
+                                "accuracy": 0.9933733038813506
+                            },
+                            "low": {
+                                "accuracy": 0.8646616541353384
+                            },
+                            "medium": {
+                                "accuracy": 0.9510086455331412
+                            },
+                            "reject": {
+                                "accuracy": 0.40963855421686746
+                            }
+                        },
+                        "human": {
+                            "high": {
+                                "accuracy": 0.996798463262366
+                            },
+                            "low": {
+                                "accuracy": 0.8514056224899599
+                            },
+                            "medium": {
+                                "accuracy": 0.9439252336448598
+                            },
+                            "reject": {
+                                "accuracy": 0.7258064516129032
+                            }
+                        },
+                        "mixed": {
+                            "high": {
+                                "accuracy": 0.8066812705366923
+                            },
+                            "low": {
+                                "accuracy": 0.3313953488372093
+                            },
+                            "medium": {
+                                "accuracy": 0.6600476568705321
+                            },
+                            "reject": {
+                                "accuracy": 0.2125748502994012
+                            }
+                        }
+                    },
+                    "overall_burstiness": 263.82696533203125,
+                    "paragraphs": [
+                        {
+                            "completely_generated_prob": 0.0006564766595293492,
+                            "num_sentences": 4,
+                            "start_sentence_index": 0
+                        }
+                    ],
+                    "predicted_class": "human",
+                    "sentences": [
+                        {
+                            "generated_prob": 0.008258422836661339,
+                            "perplexity": 371,
+                            "sentence": "this cup is cute.",
+                            "highlight_sentence_for_ai": false
+                        },
+                        {
+                            "generated_prob": 0.00929863378405571,
+                            "perplexity": 70,
+                            "sentence": "however, it's very small and does NOT hold 8 ounces.",
+                            "highlight_sentence_for_ai": false
+                        },
+                        {
+                            "generated_prob": 0.008819892071187496,
+                            "perplexity": 47,
+                            "sentence": "it only holds 6 ounces if you fill it to the brim.",
+                            "highlight_sentence_for_ai": false
+                        },
+                        {
+                            "generated_prob": 0.011132901534438133,
+                            "perplexity": 600,
+                            "sentence": "i am extremely didappointed and unhappy with this product.",
+                            "highlight_sentence_for_ai": false
+                        }
+                    ],
+                    "writing_stats": {},
+                    "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+                    "result_sub_message": "",
+                    "document_classification": "HUMAN_ONLY",
+                    "version": "2024-01-09"
+                }
+            ]
+        }
+    },
+    {
+        "review_text": "This cup is super cute but smaller than I thought. Not much fits in it.",
+        "analysis_result": {
+            "version": "2024-01-09",
+            "scanId": "22be7440-e15a-4f04-9666-6ec7b8fb4a63",
+            "documents": [
+                {
+                    "average_generated_prob": 0,
+                    "class_probabilities": {
+                        "ai": 5.2984319973488e-05,
+                        "human": 0.9610165779798213,
+                        "mixed": 0.03893043770020524
+                    },
+                    "completely_generated_prob": 0.01946521885010262,
+                    "confidence_category": "high",
+                    "confidence_score": 0.8737740817940933,
+                    "confidence_scores_raw": {
+                        "softmax": {
+                            "ai": 5.2984319973488e-05,
+                            "human": 0.9610165779798213,
+                            "mixed": 0.03893043770020524
+                        }
+                    },
+                    "confidence_thresholds_raw": {
+                        "softmax": {
+                            "ai": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "human": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "mixed": {
+                                "low": 0.25005905002137835,
+                                "medium": 0.7499982093942428,
+                                "reject": 0.06218595116691931
+                            }
+                        }
+                    },
+                    "metrics_per_class": {
+                        "ai": {
+                            "high": {
+                                "accuracy": 0.9933733038813506
+                            },
+                            "low": {
+                                "accuracy": 0.8646616541353384
+                            },
+                            "medium": {
+                                "accuracy": 0.9510086455331412
+                            },
+                            "reject": {
+                                "accuracy": 0.40963855421686746
+                            }
+                        },
+                        "human": {
+                            "high": {
+                                "accuracy": 0.996798463262366
+                            },
+                            "low": {
+                                "accuracy": 0.8514056224899599
+                            },
+                            "medium": {
+                                "accuracy": 0.9439252336448598
+                            },
+                            "reject": {
+                                "accuracy": 0.7258064516129032
+                            }
+                        },
+                        "mixed": {
+                            "high": {
+                                "accuracy": 0.8066812705366923
+                            },
+                            "low": {
+                                "accuracy": 0.3313953488372093
+                            },
+                            "medium": {
+                                "accuracy": 0.6600476568705321
+                            },
+                            "reject": {
+                                "accuracy": 0.2125748502994012
+                            }
+                        }
+                    },
+                    "overall_burstiness": 78.48885345458984,
+                    "paragraphs": [
+                        {
+                            "completely_generated_prob": 0.02318840472169716,
+                            "num_sentences": 2,
+                            "start_sentence_index": 0
+                        }
+                    ],
+                    "predicted_class": "human",
+                    "sentences": [
+                        {
+                            "generated_prob": 0.014338581822812557,
+                            "perplexity": 55,
+                            "sentence": "This cup is super cute but smaller than I thought.",
+                            "highlight_sentence_for_ai": false
+                        },
+                        {
+                            "generated_prob": 0.013706433586776257,
+                            "perplexity": 166,
+                            "sentence": "Not much fits in it.",
+                            "highlight_sentence_for_ai": false
+                        }
+                    ],
+                    "writing_stats": {},
+                    "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+                    "result_sub_message": "",
+                    "document_classification": "HUMAN_ONLY",
+                    "version": "2024-01-09"
+                }
+            ]
+        }
+    },
+    {
+        "review_text": "Great",
+        "analysis_result": {
+            "version": "2024-01-09",
+            "scanId": "2acf44c7-57bc-45cd-8b4b-0545cb1e2a15",
+            "documents": [
+                {
+                    "average_generated_prob": 0,
+                    "class_probabilities": {
+                        "ai": 5.3251708309507234e-05,
+                        "human": 0.9516064056114533,
+                        "mixed": 0.04834034268023725
+                    },
+                    "completely_generated_prob": 0.024170171340118625,
+                    "confidence_category": "high",
+                    "confidence_score": 0.836175544691947,
+                    "confidence_scores_raw": {
+                        "softmax": {
+                            "ai": 5.3251708309507234e-05,
+                            "human": 0.9516064056114533,
+                            "mixed": 0.04834034268023725
+                        }
+                    },
+                    "confidence_thresholds_raw": {
+                        "softmax": {
+                            "ai": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "human": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "mixed": {
+                                "low": 0.25005905002137835,
+                                "medium": 0.7499982093942428,
+                                "reject": 0.06218595116691931
+                            }
+                        }
+                    },
+                    "metrics_per_class": {
+                        "ai": {
+                            "high": {
+                                "accuracy": 0.9933733038813506
+                            },
+                            "low": {
+                                "accuracy": 0.8646616541353384
+                            },
+                            "medium": {
+                                "accuracy": 0.9510086455331412
+                            },
+                            "reject": {
+                                "accuracy": 0.40963855421686746
+                            }
+                        },
+                        "human": {
+                            "high": {
+                                "accuracy": 0.996798463262366
+                            },
+                            "low": {
+                                "accuracy": 0.8514056224899599
+                            },
+                            "medium": {
+                                "accuracy": 0.9439252336448598
+                            },
+                            "reject": {
+                                "accuracy": 0.7258064516129032
+                            }
+                        },
+                        "mixed": {
+                            "high": {
+                                "accuracy": 0.8066812705366923
+                            },
+                            "low": {
+                                "accuracy": 0.3313953488372093
+                            },
+                            "medium": {
+                                "accuracy": 0.6600476568705321
+                            },
+                            "reject": {
+                                "accuracy": 0.2125748502994012
+                            }
+                        }
+                    },
+                    "overall_burstiness": 0,
+                    "paragraphs": [
+                        {
+                            "completely_generated_prob": 0.11111110864197533,
+                            "num_sentences": 1,
+                            "start_sentence_index": 0
+                        }
+                    ],
+                    "predicted_class": "human",
+                    "sentences": [
+                        {
+                            "generated_prob": 0.00029514951165765524,
+                            "perplexity": 1,
+                            "sentence": "Great",
+                            "highlight_sentence_for_ai": false
+                        }
+                    ],
+                    "writing_stats": {},
+                    "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+                    "result_sub_message": "",
+                    "document_classification": "HUMAN_ONLY",
+                    "version": "2024-01-09"
+                }
+            ]
+        }
+    },
+    {
+        "review_text": "Super cute mug with little Santa that hides under your beverage until you start to drink. Exactly as pictured.",
+        "analysis_result": {
+            "version": "2024-01-09",
+            "scanId": "a12abad3-9209-4f37-acaf-a0c935869277",
+            "documents": [
+                {
+                    "average_generated_prob": 0,
+                    "class_probabilities": {
+                        "ai": 5.4379728328331594e-05,
+                        "human": 0.9965524868030946,
+                        "mixed": 0.0033931334685770803
+                    },
+                    "completely_generated_prob": 0.0016965667342885402,
+                    "confidence_category": "high",
+                    "confidence_score": 0.9479403552950927,
+                    "confidence_scores_raw": {
+                        "softmax": {
+                            "ai": 5.4379728328331594e-05,
+                            "human": 0.9965524868030946,
+                            "mixed": 0.0033931334685770803
+                        }
+                    },
+                    "confidence_thresholds_raw": {
+                        "softmax": {
+                            "ai": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "human": {
+                                "low": 0.2500408713258266,
+                                "medium": 0.7500108282798076,
+                                "reject": 0.0829235360196047
+                            },
+                            "mixed": {
+                                "low": 0.25005905002137835,
+                                "medium": 0.7499982093942428,
+                                "reject": 0.06218595116691931
+                            }
+                        }
+                    },
+                    "metrics_per_class": {
+                        "ai": {
+                            "high": {
+                                "accuracy": 0.9933733038813506
+                            },
+                            "low": {
+                                "accuracy": 0.8646616541353384
+                            },
+                            "medium": {
+                                "accuracy": 0.9510086455331412
+                            },
+                            "reject": {
+                                "accuracy": 0.40963855421686746
+                            }
+                        },
+                        "human": {
+                            "high": {
+                                "accuracy": 0.996798463262366
+                            },
+                            "low": {
+                                "accuracy": 0.8514056224899599
+                            },
+                            "medium": {
+                                "accuracy": 0.9439252336448598
+                            },
+                            "reject": {
+                                "accuracy": 0.7258064516129032
+                            }
+                        },
+                        "mixed": {
+                            "high": {
+                                "accuracy": 0.8066812705366923
+                            },
+                            "low": {
+                                "accuracy": 0.3313953488372093
+                            },
+                            "medium": {
+                                "accuracy": 0.6600476568705321
+                            },
+                            "reject": {
+                                "accuracy": 0.2125748502994012
+                            }
+                        }
+                    },
+                    "overall_burstiness": 184.55487060546875,
+                    "paragraphs": [
+                        {
+                            "completely_generated_prob": 0.02318840472169716,
+                            "num_sentences": 2,
+                            "start_sentence_index": 0
+                        }
+                    ],
+                    "predicted_class": "human",
+                    "sentences": [
+                        {
+                            "generated_prob": 0.00032040668884292245,
+                            "perplexity": 193,
+                            "sentence": "Super cute mug with little Santa that hides under your beverage until you start to drink.",
+                            "highlight_sentence_for_ai": false
+                        },
+                        {
+                            "generated_prob": 0.00025403237668797374,
+                            "perplexity": 454,
+                            "sentence": "Exactly as pictured.",
+                            "highlight_sentence_for_ai": false
+                        }
+                    ],
+                    "writing_stats": {},
+                    "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+                    "result_sub_message": "",
+                    "document_classification": "HUMAN_ONLY",
+                    "version": "2024-01-09"
+                }
+            ]
+        }
+    }
+]
